@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+gem 'twitter-bootstrap-rails'
+gem "jquery-rails"
+gem 'jquery-turbolinks'
+gem "font-awesome-rails"
 
 ruby '2.4.0'
 
